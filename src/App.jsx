@@ -28,7 +28,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename='/practice'>
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/MaterialUI" element={<MaterialUI/>}/>
