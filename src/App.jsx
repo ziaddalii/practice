@@ -4,6 +4,9 @@ import MaterialUI from './components/MaterialUi/MaterialUI'
 import React from 'react'
 import { createTheme, ThemeProvider } from '@mui/material'
 import Home from './components/Home'
+import 'tailwindcss/tailwind.css';
+import './index.css';
+
 const theme = createTheme({
   palette:{
     primary:{
